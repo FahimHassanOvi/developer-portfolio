@@ -65,9 +65,9 @@ nav a {
 /* Header related style */
 .header {
     background: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
     margin-bottom: 130px;
 }
 
@@ -206,11 +206,6 @@ footer {
 }
 .social-links a{
     margin-right: 25px;
-}
-.social-links{
-    /* padding-left: 10px; */
-    margin-left: 20px;
-
 }
 
 .contact input[type="text"], .contact input[type="email"],
